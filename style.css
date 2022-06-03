@@ -1,5 +1,6 @@
 body 
 {
+    background-color: blue;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     text-align: center;
 }
