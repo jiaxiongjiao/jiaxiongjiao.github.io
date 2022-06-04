@@ -1,1 +1,38 @@
+.colorBlock
+{
+    position: absolute;
+    content: "hi";
+    background-color: purple;
+    width: 500px;
+    height: 500px;
+    transition: 5s;
+}
 
+.red
+{
+    clip-path: circle(50px at 10% 10%);
+    background-color: red;
+}
+.blue
+{
+    clip-path: circle(50px at 90% 10%);
+    background-color: blue;
+}
+.green
+{
+    clip-path: circle(50px at 10% 90%);
+    background-color: green;
+}
+.pink
+{
+    z-index; 99;
+    clip-path: circle(50px at 90% 90%);
+    background-color: pink;
+}
+
+
+.colorBlock:hover
+{
+    transition: 0.5s ease-in-out;
+    clip-path: circle(500px);
+}
