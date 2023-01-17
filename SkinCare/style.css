@@ -1,0 +1,79 @@
+*
+{
+  font-family: 'Noto Sans SC', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+html
+{
+  background-color: cornsilk;
+}
+
+h3
+{
+  margin-top: 10px;
+}
+
+ul
+{
+  margin-top: 10px;
+  list-style-position: inside;
+}
+
+.productCard
+{
+  border-radius: 16px;
+  box-shadow: 0px 2px 24px hsl(0deg 0% 0% / 0.2);
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.productImage
+{
+  padding: 10px;
+  width: 30%;
+}
+
+.productImage img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-height: 100px;
+}
+
+.accompanyText
+{
+  width: 70%;
+  padding: 10px;
+}
+
+.productName
+{
+  font-weight: bolder;  
+}
+
+.productDescription
+{
+  padding: 10px;
+}
+
+.content
+{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timelessImage
+{
+  width: 10%;
+}
+
